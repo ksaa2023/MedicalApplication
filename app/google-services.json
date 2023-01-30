@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "895283925517",
+    "project_id": "pharmacydelivery-2a268",
+    "storage_bucket": "pharmacydelivery-2a268.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:895283925517:android:888972aa5444f934c13b44",
+        "android_client_info": {
+          "package_name": "com.example.app.medicalapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "895283925517-0ataslk2fpifpqq157busont4grqd6hp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOMVlQOQ4t26-cH1EvqEwMyKKPtfnPPVA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "895283925517-0ataslk2fpifpqq157busont4grqd6hp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:895283925517:android:5a02bd9c12c0adb6c13b44",
+        "android_client_info": {
+          "package_name": "com.example.pharmacydelivery"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "895283925517-0ataslk2fpifpqq157busont4grqd6hp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOMVlQOQ4t26-cH1EvqEwMyKKPtfnPPVA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "895283925517-0ataslk2fpifpqq157busont4grqd6hp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

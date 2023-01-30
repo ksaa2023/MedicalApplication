@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:text="MedicallApplication"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <ImageView
+        android:src="@drawable/logo2"
+        android:layout_marginStart="22dp"
+        android:layout_marginEnd="22dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+    </ImageView>
+
+    <EditText
+        android:id="@+id/user_name"
+        android:layout_marginStart="22sp"
+        android:layout_marginEnd="22sp"
+        android:layout_marginTop="22dp"
+        android:hint="Enter User Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_marginStart="22sp"
+        android:layout_marginEnd="22sp"
+        android:layout_marginTop="22dp"
+        android:inputType="textPassword"
+        android:hint="Enter Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </EditText>
+
+
+
+
+    <LinearLayout
+        android:layout_marginStart="22dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginTop="22dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/sign_in"
+            android:textColor="@color/white"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:text="Sign In"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </Button>
+
+        <Button
+            android:id="@+id/sign_up"
+            android:textColor="@color/white"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="8dp"
+            android:text="Sign Up"
+            android:textAllCaps="false"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </Button>
+
+
+    </LinearLayout>
+
+</LinearLayout>

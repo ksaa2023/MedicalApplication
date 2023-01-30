@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddUpdateOrderActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="Add Order"
+            android:id="@+id/page_title"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/black"
+            android:textSize="22sp"
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <ImageView
+            android:visibility="gone"
+            android:src="@drawable/ic_baseline_add_photo_alternate_24"
+            android:layout_margin="16dp"
+            android:id="@+id/image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+        </ImageView>
+        <EditText
+            android:layout_margin="8dp"
+            android:id="@+id/name"
+            android:hint="Patient Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </EditText>
+
+        <EditText
+            android:layout_margin="8dp"
+            android:id="@+id/address"
+            android:hint="Address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </EditText>
+
+        <EditText
+            android:layout_margin="8dp"
+            android:id="@+id/phone"
+            android:hint="Phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </EditText>
+
+        <EditText
+            android:layout_margin="8dp"
+            android:id="@+id/descripe"
+            android:hint="Descripe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </EditText>
+
+        <Button
+            android:text="Save"
+            android:id="@+id/save"
+            android:textAllCaps="false"
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </Button>
+
+    </LinearLayout>
+
+</ScrollView>

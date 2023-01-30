@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="8dp"
+    app:cardElevation="10dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+
+            android:id="@+id/image"
+            android:scaleType="fitXY"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="120dp">
+
+        </ImageView>
+        <TextView
+            android:layout_margin="8dp"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:id="@+id/name"
+            tools:text="Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <TextView
+            android:layout_margin="8dp"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            tools:text="Address"
+            android:id="@+id/address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <TextView
+            android:layout_margin="8dp"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            tools:text="Phone"
+            android:id="@+id/phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <TextView
+            android:layout_margin="8dp"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            tools:text="Describe"
+            android:id="@+id/describe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+
+            <Button
+                android:id="@+id/action_btn"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp">
+
+            </Button>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

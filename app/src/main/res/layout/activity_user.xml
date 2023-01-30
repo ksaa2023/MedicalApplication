@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UserActivity">
+
+    <TextView
+        android:text="Home Screen"
+        android:layout_margin="16dp"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        android:textSize="22sp"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content">
+
+    </TextView>
+
+    <LinearLayout
+        android:layout_gravity="center_vertical"
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.card.MaterialCardView
+            app:cardCornerRadius="16dp"
+            app:cardElevation="10dp"
+            android:layout_weight="1"
+            android:layout_margin="16dp"
+            android:id="@+id/view_doctors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:src="@drawable/doctor"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp">
+
+                </ImageView>
+                <TextView
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:text="View Doctors"
+
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            app:cardCornerRadius="16dp"
+
+            app:cardElevation="10dp"
+            android:layout_weight="1"
+            android:layout_margin="16dp"
+            android:id="@+id/view_orders"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:src="@drawable/orders_list"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp">
+
+                </ImageView>
+                <TextView
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:text="View Orders"
+
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                </TextView>
+
+            </LinearLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

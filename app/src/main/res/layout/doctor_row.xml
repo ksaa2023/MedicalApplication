@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_margin="8dp"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:text="Doctor Name"
+            android:layout_alignParentEnd="true"
+            android:textSize="20sp"
+            android:id="@+id/doctor_name"
+            android:layout_margin="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <TextView
+            android:text="Doctor Name"
+            android:layout_alignParentEnd="true"
+            android:textSize="16sp"
+            android:layout_below="@id/doctor_name"
+            android:id="@+id/doctor_spec"
+            android:layout_margin="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/add_order"
+            android:layout_centerVertical="true"
+            android:text="addOrder"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+        </Button>
+    </RelativeLayout>
+
+</com.google.android.material.card.MaterialCardView>
