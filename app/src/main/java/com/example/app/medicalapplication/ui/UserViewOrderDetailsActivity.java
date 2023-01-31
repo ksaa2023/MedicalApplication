@@ -40,8 +40,8 @@ public class UserViewOrderDetailsActivity extends AppCompatActivity {
                 binding.describe.setVisibility(View.VISIBLE);
                 binding.address.setVisibility(View.VISIBLE);
                 binding.address.setText("Address :"+order.getAddress());
-                binding.name.setText("Pharmacy Name :"+order.getName());
-                binding.phone.setText("Pharmacy Phone :"+order.getPhone());
+                binding.name.setText("Patient Name :"+order.getName());
+                binding.phone.setText("Patient Phone :"+order.getPhone());
                 binding.describe.setText("Describe :"+order.getDescribe());
                 binding.address.setText("Address :"+order.getAddress());
             }
